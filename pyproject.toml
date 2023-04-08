@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "beerqrlabels"
+version = "0.1.0"
+description = "Used to create QR codes that will fit on bottle caps and store BeerJSON information"
+authors = ["equaggiotto <47019557+equaggiotto@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+qrcode = {extras = ["pil"], version = "^7.4.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
